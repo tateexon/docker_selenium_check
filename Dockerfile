@@ -1,4 +1,4 @@
-FROM selenium/standalone-chrome:3.12.0-cobalt
+FROM selenium/standalone-chrome:3.14.0-arsenic
 
 HEALTHCHECK --interval=1m --timeout=3s \
   CMD curl -f http://localhost:4444/ || exit 1
