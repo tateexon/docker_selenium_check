@@ -6,3 +6,6 @@ docker build -t="tateexon/docker_selenium_check:latest" .
 
 # to push
 docker push tateexon/docker_selenium_check:latest
+
+# dockerhub page
+https://hub.docker.com/r/tateexon/docker_selenium_check/
