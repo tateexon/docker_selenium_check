@@ -1,4 +1,4 @@
-FROM selenium/standalone-chrome:3.14.0-francium
+FROM selenium/standalone-chrome:3.14.0-helium
 
 HEALTHCHECK --interval=1m --timeout=3s \
   CMD curl -f http://localhost:4444/ || exit 1
